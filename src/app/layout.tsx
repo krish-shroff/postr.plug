@@ -12,6 +12,9 @@ const body = Instrument_Sans({ subsets: ["latin"], variable: "--font-body" });
 export const metadata: Metadata = {
   title: { default: `${site.name}: ${site.tagline}`, template: `%s | ${site.name}` },
   description: `Aesthetic, anime, gaming, movie and custom posters for ${site.school} students. A4 or A3, pay on delivery.`,
+  verification: {
+    google: "TQJpqvm1g2aIPpXhlQ4HbXi6pIZ6Syw4mUmK9Q08ll0",
+  },
 };
 export const viewport: Viewport = { themeColor: "#161618" };
 
